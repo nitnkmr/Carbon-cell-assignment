@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import Sidepanel from './component/Sidepanel'
 import Mainpanel from './component/Mainpanel'
 import { FaBars } from "react-icons/fa";
-import Sidenavbar from './component/Sidenavbar';
 
 
 function App() {
