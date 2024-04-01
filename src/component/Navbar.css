@@ -1,0 +1,90 @@
+.navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+}
+
+.title {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+
+.title .greeting span {
+    font-size: 22px;
+    background: -webkit-linear-gradient(#2ab42a, #eed70a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+/* .title .welcome {
+    font-size: 1.2rem;
+} */
+
+.title .welcome span {
+    font-size: 20px;
+    color: #2ab42a;
+}
+
+.profile {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+button{
+    background-color:#2ab42a;
+    height: 40px;
+    width: 100px;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 724px){
+    .navbar {
+        height: 90px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(39, 222, 222);
+    }
+    .title{
+        width: 70%;
+        font-size: 12px;
+    }
+  
+    .title .welcome {
+        font-size: 12px;
+    }
+    .greeting {
+        font-size: 12px;
+    }
+    .title .welcome span {
+        font-size: 12px;
+        color: #2ab42a;
+    }
+  
+    .profile {
+        width: 20%;
+        min-width: 200px;
+        justify-content: center;
+    }
+    .title .greeting span {
+        font-size: 16px;;
+    
+    }
+  }

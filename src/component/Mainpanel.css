@@ -1,0 +1,157 @@
+.main{
+ height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ color: white;
+ border: 2px solid red;
+ background-color: black;
+}
+.navbarContainer{
+    width: 90%;
+    height: 15%;
+    min-height:100px ;
+}
+.chartContainer{
+    height: 60%;
+    width: 100%;
+    max-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid rgb(35, 164, 33);
+    
+}
+.chart{
+    height: 100%;
+    width: 50%;
+    min-width: 450px;
+    background-color:#171717;
+    border-radius: 10px;
+    border: 2px solid yellow;
+
+}
+.linechart{
+    height: 80%;
+    width: 100%;
+  
+}
+.chart2{
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color:#171717;
+    min-width: 200px;
+    
+}
+.piechart{
+    height: 75%;
+    width: 100%;
+    background-color:#171717;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.wallet{
+    background-color:#28a927 ;
+    height: 30px;
+    width: 70%;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mainCardContainer{
+    height: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 99%;
+    flex-flow: row wrap;
+
+    
+}
+.marketoverview{
+    margin-left: 4%;
+    height: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+}
+@media screen and (max-width: 1110px){
+    .main{
+        height: 200%;
+        width: 100%;
+    }
+    .chartContainer{
+        max-height: 150vh;
+        width: 95%;
+       }
+       .chart{
+        height: 50%;
+        width: 100%;
+       }
+       .chart2{
+        height: 50%;
+        width: 49%;
+       }
+}
+@media screen and (max-width: 724px){
+    .navbarContainer{
+        width: 100%;
+        height: 15%;
+        min-height:100px ;
+    }
+    .main{
+        height: 150%;
+        width: 100vh;
+       }
+       .chartContainer{
+        max-height: 150vh;
+        width: 90vw;
+       }
+       .chart{
+        height: 50%;
+        width: 100%;
+       }
+       .chart2{
+        height: 50%;
+        width: 49%;
+       }
+       .mainCardContainer{
+        width: 100%;
+       }
+  }
+@media screen and (max-width: 425px){
+    .navbarContainer{
+        width: 100vw;
+        height: 15%;
+        min-height:100px ;
+    }
+    .main{
+        height: 150%;
+        width: 100vh;
+       }
+       .chartContainer{
+        height: 300vh;
+        width: 90vw;
+       }
+       .chart{
+        width: 90%;
+       }
+  }
