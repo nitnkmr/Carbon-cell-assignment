@@ -1,4 +1,13 @@
-# React + Vite
+# Carbon Cell
+
+## Demo
+Live Demo - https://carbon-cell-assignment-6c4k.vercel.app/
+
+## Technologies Used
+- React (Single-page application)
+- Routing with React Router
+- React Hooks like useState , useEffect.
+- Using Chart Js for creating dynamic charts.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
