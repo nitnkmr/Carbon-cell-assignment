@@ -72,4 +72,14 @@
     height: 130vh;
     width: 100%;
   }
+  .left-hide{
+    position: relative;
+    top: -40%;
+    left: 10%;
+  }
+  .right{
+    margin-left: -20px;
+
+  }
+  
 }

@@ -6,6 +6,8 @@
  justify-content: flex-start;
  color: white;
  background-color: black;
+ padding-left: 10px;
+ padding-top: 10px;
 }
 .navbarContainer{
     width: 90%;
@@ -26,7 +28,6 @@
 .chart{
     height: 100%;
     width: 50%;
-    min-width: 450px;
     background-color:#171717;
     border-radius: 10px;
 
@@ -108,6 +109,7 @@
        .chart2{
         height: 50%;
         width: 49%;
+        margin-top: 10px;
        }
 }
 @media screen and (max-width: 724px){
@@ -127,30 +129,44 @@
        .chart{
         height: 50%;
         width: 100%;
+        margin-bottom: 5px;
        }
        .chart2{
         height: 50%;
         width: 49%;
        }
        .mainCardContainer{
-        width: 100%;
+        width: 75%;
+        flex-wrap: wrap;
        }
   }
 @media screen and (max-width: 425px){
     .navbarContainer{
-        width: 100vw;
+        width: 100%;
         height: 15%;
         min-height:100px ;
     }
     .main{
-        height: 150%;
-        width: 100vh;
+        height: 190%;
+        width: 100%;
+        padding-left: 10px;
+        margin-left: -10px;
        }
        .chartContainer{
-        height: 300vh;
-        width: 90vw;
-       }
-       .chart{
+        max-height: 400%;
         width: 90%;
-       }
+        justify-content: flex-start;
+    }
+    .chart{
+        height: 30%;
+        width: 100%
+    }
+       .chart2{
+        height: 30%;
+        width: 100%
+    }
+       .linechart{
+        height: 50%;
+        width: 80%
+    }
   }

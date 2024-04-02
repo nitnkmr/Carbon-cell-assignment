@@ -24,7 +24,7 @@ const Mainpanel = () => {
       });
   }, []);
   return (
-    <div className="main" style={{ marginLeft: "10px" }}>
+    <div className="main">
       <div className="navbarContainer">
         <Navbar />
       </div>
