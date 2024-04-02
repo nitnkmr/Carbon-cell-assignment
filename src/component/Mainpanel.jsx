@@ -4,6 +4,7 @@ import './Mainpanel.css'
 import Linechart from './Linechart'
 import PiChart from './Pichart'
 import Card from './Card'
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 const Mainpanel = () => {
   const [list, setList] = useState([])
@@ -46,17 +47,17 @@ const Mainpanel = () => {
           <div className="piechart">
             <PiChart />
           </div>
-            <div className="line"></div>
-            <button className="wallet">Manage Wallet</button>
+          <div className="line"></div>
+          <button className="wallet">Manage Wallet</button>
         </div>
         <div className="chart2">
-          <h4 style={{ color: 'white' }}>Wallet</h4>
+          <h4 style={{ color: 'white' }}>Our Social Media</h4>
           <div className="line"></div>
           <div className="piechart">
             <PiChart />
           </div>
-            <div className="line"></div>
-            <button className="wallet">Manage Wallet</button>
+          <div className="line"></div>
+          <button className="wallet">Follow us on X</button>
         </div>
       </div>
       <div className="assest">Assets</div>
